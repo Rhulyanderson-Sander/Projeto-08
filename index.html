@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto 08 - bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-ligth bg-ligth " aria-label="Eighth navbar example">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/Logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample07">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="box-fix">
+      <section class="bg-top">
+        <div class="overlay"></div> <!-- overlay -->
+        <div class="container fix-zindex">
+          <div class="texto-bg">
+            <div class="row">
+              <div class="col-md-6">
+                <h2>Seja muito bem-vindo(a)</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ea sit, 
+                  laudantium necessitatibus neque omnis asperiores aspernatur obcaecati eveniet eos 
+                  reiciendis delectus, fugiat molestias? Vel ullam fugit consequatur dolores. At?
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ea sit, 
+                  laudantium necessitatibus neque omnis asperiores aspernatur obcaecati eveniet eos 
+                  reiciendis delectus, fugiat molestias? Vel ullam fugit consequatur dolores. At?</p>
+              </div><!-- col md 6-->
+
+              <div class="col-md-6">
+                <h2>Inscreva-se para nossa lista</h2>
+                <form action="">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                    <input type="email" class="form-control">
+                    <div id="emailHelp" class="form-text">Nós nunca compartilhamos seu e-mail com ninguem.</div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Cadastrar</button>
+                </form>
+              </div><!-- col md 6-->
+            </div> <!-- row-->
+          </div> <!-- texto bg-->
+        </div> <!-- container -->
+      </section> <!-- bg top-->
+
+      <section class="chamada">
+        <div class="container">
+          <h2 class="text-center"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></h2>
+        </div> <!-- container-->
+      </section> <!-- chamada-->
+
+      <section style="background: rgb(225,225,225);" class="sobre">
+        <!-- Button trigger modal -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="custom-title">
+                <div></div>
+                <h2>Sobre</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur corporis quam illum asperiores harum, sequi magnam accusantium cumque et dicta repellendus nostrum repellat facilis saepe nam. Voluptates nesciunt ea veritatis...</p>
+              </div>
+              <div class="text-center"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Saiba mais!
+              </button></div>
+            </div>
+          </div> <!-- row -->
+        </div> <!-- container -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Minha História</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id at corrupti sunt fugiat sed incidunt eligendi deserunt inventore non exercitationem aspernatur adipisci aperiam, perspiciatis sint ipsum itaque tempora consequatur perferendis.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Salvar mudanças</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> <!-- sobre -->
+
+      <section class="diferenciais">
+        <div class="container">
+          <div class="custom-title">
+            <div></div>
+            <h2 style="border-bottom: 0;">Nossos diferenciais</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <h2><i class="fa fa-user"></i></h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit iure vel debitis vitae. Adipisci nulla quam ad, ducimus enim sed debitis facere aspernatur, cumque eum voluptates quae fugiat quidem eaque?</p>
+            </div> <!-- col md 4 -->
+            <div class="col-md-4 text-center">
+              <h2><i class="fa fa-user"></i></h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit iure vel debitis vitae. Adipisci nulla quam ad, ducimus enim sed debitis facere aspernatur, cumque eum voluptates quae fugiat quidem eaque?</p>
+            </div> <!-- col md 4 -->
+            <div class="col-md-4 text-center">
+              <h2><i class="fa fa-user"></i></h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit iure vel debitis vitae. Adipisci nulla quam ad, ducimus enim sed debitis facere aspernatur, cumque eum voluptates quae fugiat quidem eaque?</p>
+            </div> <!-- col md 4 -->
+          </div> 
+        </div> <!-- container -->
+      </section> <!-- diferenciais  -->
+
+      <section class="convite">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center">
+              <h2><i class="fa fa-bell-o" aria-hidden="false"></i>Participe da nossa lista!</h2>
+            </div> <!-- col md 6-->
+            <div class="col-md-6 text-center">
+              <form>
+                <input type="email"><button style="background-color: #ccc;" type="submit" class="btn btn-default">Entrar</button>
+              </form>
+            </div> <!-- col md 6-->
+          </div> <!-- row -->
+        </div> <!-- container -->
+      </section> <!-- convite -->
+
+      <section class="contato">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="custom-title">
+                <div></div>
+                <h2>Fale conosco</h2>
+              </div>
+              <form>
+                <div class="mb-3">
+                  <label class="form-label">Nome</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">E-mail</label>
+                  <input type="email" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Mensagem</label>
+                  <textarea class="form-control"></textarea>
+                </div>
+                <button type="submit" style="background-color: #3FA3C5;color: white" class="btn btn-primary">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section> <!-- contato -->
+      
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Nossa histórioa</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus consequuntur minima alias iusto libero perferendis enim autem deserunt tempora expedita, ea nesciunt aliquid odio veritatis. Ab fugiat distinctio dicta cumque.</p>
+            </div> <!-- col md 4-->
+
+            <div class="col-md-3"> 
+              <h2>Links úteis:</h2>
+              <ul>
+                <li><a href="">Link 1</a></li>
+                <li><a href="">Link 2</a></li>
+                <li><a href="">Link 3</a></li>
+                <li><a href="">Link 4</a></li>
+              </ul>
+            </div> <!-- col md 4-->
+            <div class="col-md-3"> 
+              <h2>Links úteis:</h2>
+              <ul>
+                <li><a href="">Link 1</a></li>
+                <li><a href="">Link 2</a></li>
+                <li><a href="">Link 3</a></li>
+                <li><a href="">Link 4</a></li>
+              </ul>
+            </div> <!-- col md 4-->
+          </div> <!-- row -->
+        </div> <!-- container-->
+      </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/b30ad238e9.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
